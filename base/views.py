@@ -11,7 +11,7 @@ def home(request):
         form = MessageForm(request.POST)
         if form.is_valid():
             form.save()
-            send_mail('sub',"la","sanya08@zohomail.in",['sanyamahajan08@gmail.com'], fail_silently=False)
+            #send_mail('sub',"la","sanya08@zohomail.in",['sanyamahajan08@gmail.com'], fail_silently=False)
             messages.success(request, 'You message was successfully sent!.')
             return render(request, 'base/home.html')
             
