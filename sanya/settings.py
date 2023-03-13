@@ -139,8 +139,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CKEDITOR_UPLOAD_PATH = "uploads/"
 
 EMAIL_HOST = 'smtp.zoho.com'
-EMAIL_HOST_USER = "sanya08@zohomail.in"
-EMAIL_HOST_PASSWORD = 'sanyazoho'
+EMAIL_HOST_USER = str("sanya08@zohomail.in")
+EMAIL_HOST_PASSWORD = str('sanyazoho')
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
