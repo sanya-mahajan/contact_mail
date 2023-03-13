@@ -12,3 +12,4 @@ django-filter==22.1
 django-import-export==2.8.0
 djangorestframework==3.13.1
 
+django-environ=0.10.0
